@@ -24,8 +24,8 @@ body {
     margin-top: 10vh;
     margin-left: 20vw;
     transform: translate(-10vw, -5vh);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.671),
-      0 6px 18px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.671),
+      0 6px 12px 0 rgba(0, 0, 0, 0.19);
   }
 }
 
