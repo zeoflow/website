@@ -2,81 +2,14 @@ html,
 body {
   font-family: 'Roboto', 'Helvetica', sans-serif;
   margin: 0;
+  background-color: #3217EB;
+}
+
+.home_holder {
   background-color: #ffffff;
-}
- 
-body > div > i {display: none !important;}
-
-#home {
-
-}
-
-#splash {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-color: #ffffff;
-}
-
-#splash-icon {
-  position: absolute;
-  margin: auto;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-}
-
-#toolbar_container {
-  position: fixed;
-  bottom: 0;
-}
-
-#txtWelcome {
-  position:fixed;
-  top: 200px;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
-  color: #212121;
-  font-size: 22px;
-}
-
-.icon_bar {
-  width: 100%;
-  height: 50px;
-  background: #000000;
-  box-shadow: 0 2px 2px rgba(0,0,0,.3);
-  overflow: hidden;
-}
-
-.icon_bar a{
-  float: left;
-  text-align: center;
-  width: 20%;
-  padding: 14px 0;
-  transition: none;
-  cursor: none;
-}
-
-.active{
-  background: rgba(0,0,0,.1);
-}
-
-#icon {
-  width: 23px;
-}
-
-@media (min-width: 600px) {
-  #splash-icon {
-    height: 20%;
-  }
-}
-
-@media (max-width: 600px) {
-  #splash-icon {
-    width: 30%;
-  }
+  width: 60vw;
+  height: 90vh;
+  margin-top: 10vh;
+  margin-left: 40vw;
+  transform: translate(-20vw, -5vh);
 }
