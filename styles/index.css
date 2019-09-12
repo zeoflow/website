@@ -16,6 +16,19 @@ body {
     0 6px 18px 0 rgba(0, 0, 0, 0.19);
 }
 
+@media (max-width: 950px) {
+  .home_holder {
+    background-color: #ffffff;
+    width: 80vw;
+    height: 90vh;
+    margin-top: 10vh;
+    margin-left: 20vw;
+    transform: translate(-10vw, -5vh);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.671),
+      0 6px 18px 0 rgba(0, 0, 0, 0.19);
+  }
+}
+
 .logoHolder {
   position: relative;
   width: 40%;
@@ -47,4 +60,11 @@ body {
   text-align: center;
   font-size: 40px;
   font-weight: bold;
+}
+
+@media (max-width: 950px) {
+
+  .contentText {
+    font-size: 30px;
+  }
 }
