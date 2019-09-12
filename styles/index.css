@@ -8,8 +8,10 @@ body {
 .home_holder {
   background-color: #ffffff;
   width: 60vw;
-  height: 90vh;
-  margin-top: 10vh;
+  height: 80vh;
+  margin-top: 20vh;
   margin-left: 40vw;
-  transform: translate(-20vw, -5vh);
+  transform: translate(-20vw, -10vh);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.671),
+    0 6px 18px 0 rgba(0, 0, 0, 0.19);
 }
