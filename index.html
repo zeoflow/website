@@ -44,52 +44,10 @@
 
   <link rel="stylesheet" href="styles/index.css" type="text/css">
 
-  <!-- Add Firebase products that you want to use -->
-  <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase-app.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase-auth.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/5.11.1/firebase-database.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/5.11.0/firebase-firestore.js"></script>
-  <script>
-    // Initialize Firebase
-    var config = {
-      apiKey: "AIzaSyDc9l65AV4Vx-WZZ_yUqrRiGTMMq0Mvvd4",
-      authDomain: "zeo-flow.firebaseapp.com",
-      databaseURL: "https://zeo-flow.firebaseio.com",
-      projectId: "zeo-flow",
-      storageBucket: "zeo-flow.appspot.com",
-      messagingSenderId: "1064378687161"
-    };
-    firebase.initializeApp(config);
-  </script>
-
   <script src="js/index.js" type="text/javascript"></script>
 
 </head>
-<body onresize="onResize()">
-
-  <div id="splash">
-        <img id="splash-icon" src="img/ic_zeoflow_splash.png" alt="ZeoFlow Logo">    
-  </div>
-
-  <div hidden id="home">
-
-    <div class="toolbar_container">
-      <div class="icon_bar">
-        <a href="#"><i class="fa fa_home"><img id="icon" src="img/ic_feed_drawer_activated.png" alt="ZeoFlow Home"></i></a>
-        <a href="#"><i class="fa fa_home"><img id="icon" src="img/ic_message_drawer.png" alt="ZeoFlow Home"></i></a>
-        <a href="#"><i class="fa fa_home"><img id="icon" src="img/ic_discover_drawer.png" alt="ZeoFlow Home"></i></a>
-        <a href="#"><i class="fa fa_home"><img id="icon" src="img/ic_notification_drawer.png" alt="ZeoFlow Home"></i></a>
-        <a href="#"><i class="fa fa_home"><img id="icon" src="img/ic_settings_drawer.png" alt="ZeoFlow Home"></i></a>
-      </div>
-    </div>
-
-    <div class="fragment_container">
-
-      <p id="txtWelcome"></p>
-      
-    </div>
-    
-  </div>
+<body>
 
 </body>
 </html>
