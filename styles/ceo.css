@@ -18,9 +18,25 @@ body {
 
 
 .toolbar {
-  background-color: #ffffff;
+  background-color: #3217EB;
   height: 56px;
   width: 100vw;
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.671),
-    0 1px 1px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.5),
+    0 1px 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+.toolbarContentHolder {
+  font-size: 20px;
+  width: 100%;
+  height: 100%;
+  font-weight: bold;
+}
+
+.titleToolbar {
+  font-size: 22px;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+  padding-top: 16px;
 }
