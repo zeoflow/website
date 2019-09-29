@@ -21,8 +21,10 @@ body {
   background-color: #3217EB;
   height: 56px;
   width: 100vw;
+  position: fixed;
   box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.5),
     0 1px 1px 0 rgba(0, 0, 0, 0.1);
+    z-index: 1;
 }
 
 .toolbarContentHolder {
@@ -39,4 +41,45 @@ body {
   text-align: center;
   position: relative;
   padding-top: 16px;
+}
+
+.content_holder {
+  width:80vw;
+  margin-left: 50%;
+  transform: translate(-50%, 0);
+  z-index: 0;
+}
+
+.header {
+  height: 75px;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Opera and Firefox */
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 1vw;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
 }
