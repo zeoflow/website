@@ -16,7 +16,6 @@ body {
     0 6px 18px 0 rgba(0, 0, 0, 0.19);
 }
 
-
 .toolbar {
   background-color: #3217EB;
   height: 56px;
@@ -40,7 +39,8 @@ body {
   font-weight: bold;
   text-align: center;
   position: relative;
-  padding-top: 16px;
+  padding-top: 9px;
+  font-family: 'Be Vietnam', sans-serif;
 }
 
 .content_holder {
@@ -52,6 +52,14 @@ body {
 
 .header {
   height: 75px;
+}
+
+.itemHolder {
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 0 5px #000;
+  font-family: 'Be Vietnam', sans-serif;
 }
 
 .noselect {
