@@ -40,6 +40,10 @@ body {
   text-align: center;
   position: relative;
   padding-top: 9px;
+  text-decoration: none;
+  position: absolute;
+  margin-left: 50%;
+  transform: translate(-25%, 0%);
   font-family: 'Be Vietnam', sans-serif;
 }
 
@@ -60,6 +64,20 @@ body {
   padding: 20px;
   box-shadow: 0 0 5px #000;
   font-family: 'Be Vietnam', sans-serif;
+}
+
+.h2title {
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0.2em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+
+.titleContent {
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
 }
 
 .noselect {
