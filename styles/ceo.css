@@ -98,6 +98,12 @@ body {
   margin-bottom: 90px;
 }
 
+.socialLink {
+  text-decoration: none;
+  color: #0c38ca;
+  font-weight: bold;
+}
+
 /* width */
 ::-webkit-scrollbar {
   width: 0.8vw;
