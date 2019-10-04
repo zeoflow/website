@@ -90,6 +90,14 @@ body {
                                   supported by Chrome, Opera and Firefox */
 }
 
+.spaceAbove {
+  margin-top: 20px;
+}
+
+.spaceBelow {
+  margin-bottom: 90px;
+}
+
 /* width */
 ::-webkit-scrollbar {
   width: 1vw;
