@@ -89,6 +89,13 @@ body {
   }
 }
 
+.itemHolderNoBackground {
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  padding: 20px;
+  font-family: zeoFlow;
+}
+
 .h2title {
   -webkit-margin-before: 0em;
   -webkit-margin-after: 0.2em;
@@ -100,6 +107,10 @@ body {
   .h2title {
     font-size: 1.2em;
   }
+}
+
+.tags {
+  font-size: 1em;
 }
 
 .titleContent {
