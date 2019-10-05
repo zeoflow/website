@@ -66,6 +66,12 @@ body {
   font-family: 'Be Vietnam', sans-serif;
 }
 
+@media (max-width: 900px) {
+  .itemHolder {
+    box-shadow: 0 0 3px #000;
+  }
+}
+
 .h2title {
   -webkit-margin-before: 0em;
   -webkit-margin-after: 0.2em;
