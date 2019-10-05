@@ -12,7 +12,43 @@
 
    <url>
 
+      <loc>https://zeoflow.com/index</loc>
+      <lastmod>2019-10-05</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>1.0</priority>
+
+   </url>
+
+   <url>
+
       <loc>https://zeoflow.com/about/ceo</loc>
+      <lastmod>2019-10-05</lastmod>
+      <changefreq>yearly</changefreq>
+      <priority>0.8</priority>
+
+   </url>
+
+   <url>
+
+      <loc>zeoflow.com/</loc>
+      <lastmod>2019-10-05</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>1.0</priority>
+
+   </url>
+
+   <url>
+
+      <loc>zeoflow.com/index</loc>
+      <lastmod>2019-10-05</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>1.0</priority>
+
+   </url>
+
+   <url>
+
+      <loc>zeoflow.com/about/ceo</loc>
       <lastmod>2019-10-05</lastmod>
       <changefreq>yearly</changefreq>
       <priority>0.8</priority>
