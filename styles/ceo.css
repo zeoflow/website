@@ -54,8 +54,20 @@ body {
   z-index: 0;
 }
 
+@media (max-width: 900px) {
+  .content_holder {
+    width:90vw;
+  }
+}
+
 .header {
   height: 85px;
+}
+
+@media (max-width: 900px) {
+  .header {
+    height: 75px;
+  }
 }
 
 .itemHolder {
@@ -79,11 +91,23 @@ body {
   -webkit-margin-end: 0px;
 }
 
+@media (max-width: 900px) {
+  .h2title {
+    font-size: 1.2em;
+  }
+}
+
 .titleContent {
   -webkit-margin-before: 0em;
   -webkit-margin-after: 0em;
   -webkit-margin-start: 0px;
   -webkit-margin-end: 0px;
+}
+
+@media (max-width: 900px) {
+  .titleContent {
+    font-size: 0.9em;
+  }
 }
 
 .noselect {
@@ -104,6 +128,16 @@ body {
   margin-bottom: 90px;
 }
 
+@media (max-width: 900px) {
+  .spaceAbove {
+    margin-top: 20px;
+  }
+  
+  .spaceBelow {
+    margin-bottom: 80px;
+  }
+}
+
 .socialLink {
   text-decoration: none;
   color: #0c38ca;
@@ -113,6 +147,12 @@ body {
 /* width */
 ::-webkit-scrollbar {
   width: 0.8vw;
+}
+
+@media (max-width: 900px) {
+  ::-webkit-scrollbar {
+    width: 2vw;
+  }
 }
 
 /* Track */
