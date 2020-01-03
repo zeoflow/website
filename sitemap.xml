@@ -24,7 +24,7 @@
       <loc>https://zeoflow.com/about/ceo</loc>
       <lastmod>2019-12-30</lastmod>
       <changefreq>monthly</changefreq>
-      <priority>1</priority>
+      <priority>1.0</priority>
 
    </url>
 
@@ -33,7 +33,7 @@
       <loc>https://zeoflow.com/about/us</loc>
       <lastmod>2019-12-30</lastmod>
       <changefreq>monthly</changefreq>
-      <priority>1</priority>
+      <priority>1.0</priority>
 
    </url>
 
@@ -42,7 +42,7 @@
       <loc>https://zeoflow.com/about</loc>
       <lastmod>2019-12-30</lastmod>
       <changefreq>monthly</changefreq>
-      <priority>1</priority>
+      <priority>1.0</priority>
 
    </url>
 
@@ -51,7 +51,7 @@
       <loc>https://zeoflow.com/team/teodor_g</loc>
       <lastmod>2019-12-30</lastmod>
       <changefreq>monthly</changefreq>
-      <priority>1</priority>
+      <priority>0.5</priority>
 
    </url>
 
