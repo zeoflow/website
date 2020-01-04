@@ -64,6 +64,55 @@
 </head>
 <body>
 
+  <script>
+    window.onload = function what(){
+      console.log(window.sessionStorage.getItem("splashShown"));
+      if(window.sessionStorage.getItem("splashShown") == null) {
+        window.sessionStorage.setItem("splashShown", true);
+        setTimeout(
+          () => {
+              if (localStorage.getItem("ZeoFlowUserLogged")!==null) {
+                window.open("login", "_top");
+              } else {
+                window.open("home", "_top");
+              }
+          },
+          1 * 1000
+        );
+      }
+      /*
+      if (window.sessionStorage.getItem("splashShown")!=null) {
+        if (desktop) {
+          action = "https://zeoflow.github.io/d";
+          window.open(action, "_top");
+        } else {
+          if (localStorage.getItem("ZeoFlowUserLogged")!==null) {
+            document.getElementById('splash').hidden = true;
+            document.getElementById('home').hidden = false;
+          document.getElementById('txtWelcome').innerText = "Welcome, " + userData.name + "!";
+        } else {
+            action = "login";
+            window.open(action, "_top");
+        }
+        }
+    } else {
+      window.sessionStorage.setItem("splashShown", true);
+      setTimeout(
+          () => {
+              if (localStorage.getItem("ZeoFlowUserLogged")!==null) {
+                document.getElementById('splash').hidden = true;
+                document.getElementById('home').hidden = false;
+              document.getElementById('txtWelcome').innerText = "Welcome, " + userData.name + "!";
+                window.open(action, "_top");
+              }
+          },
+          1 * 1000
+        );
+
+    }*/
+    };
+  </script>
+
   <div id="particles-js"></div>
   <div class="home_holder">
       <div class="logoHolder">
