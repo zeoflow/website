@@ -4,10 +4,10 @@
   <url>
     <loc>http://zeoflow.com/team/teodor_g.html</loc>
     <image:image>
-      <image:loc>http://example.com/image.jpg</image:loc>
+      <image:loc>http://zeoflow.com/team/img/personal.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://example.com/photo.jpg</image:loc>
+      <image:loc>http://zeoflow.com/team/img/personal-2.png</image:loc>
     </image:image>
   </url> 
 </urlset> 
