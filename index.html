@@ -61,23 +61,14 @@
     gtag('config', 'G-NKGDS3T40M');
   </script>
 
-</head>
-<body>
-
   <script>
-    window.onload = function what(){
       if(window.sessionStorage.getItem("splashShown") !== true) {
         window.sessionStorage.setItem("splashShown", true);
-        setTimeout(
-          () => {
               if (localStorage.getItem("ZeoFlowUserLogged")!==true) {
                 window.open("login", "_top");
               } else {
                 window.open("home", "_top");
               }
-          },
-          1 * 1000
-        );
       } else {
         if (localStorage.getItem("ZeoFlowUserLogged")!==true) {
           window.open("login", "_top");
@@ -85,8 +76,10 @@
           window.open("home", "_top");
         }
       }
-    };
   </script>
+
+</head>
+<body>
 
   <div id="particles-js"></div>
   <div class="home_holder">
