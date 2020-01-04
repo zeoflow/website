@@ -6,26 +6,11 @@ body {
 }
 
 .home_holder {
-  background-color: rgba(255, 255, 255, 0.863);
   width: 60vw;
   height: 80vh;
   margin-top: 20vh;
   margin-left: 40vw;
   transform: translate(-20vw, -10vh);
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.671),
-    0 6px 18px 0 rgba(0, 0, 0, 0.19);
-}
-
-@media (max-width: 950px) {
-  .home_holder {
-    width: 80vw;
-    height: 90vh;
-    margin-top: 10vh;
-    margin-left: 20vw;
-    transform: translate(-10vw, -5vh);
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.671),
-      0 6px 12px 0 rgba(0, 0, 0, 0.19);
-  }
 }
 
 #particles-js {
