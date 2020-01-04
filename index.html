@@ -66,11 +66,11 @@
 
   <script>
     window.onload = function what(){
-      if(window.sessionStorage.getItem("splashShown") == null) {
+      if(window.sessionStorage.getItem("splashShown") !== true) {
         window.sessionStorage.setItem("splashShown", true);
         setTimeout(
           () => {
-              if (localStorage.getItem("ZeoFlowUserLogged")===null) {
+              if (localStorage.getItem("ZeoFlowUserLogged")!==true) {
                 window.open("login", "_top");
               } else {
                 window.open("home", "_top");
@@ -79,7 +79,7 @@
           1 * 1000
         );
       } else {
-        if (localStorage.getItem("ZeoFlowUserLogged")===null) {
+        if (localStorage.getItem("ZeoFlowUserLogged")!==true) {
           window.open("login", "_top");
         } else {
           window.open("home", "_top");
