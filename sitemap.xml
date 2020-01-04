@@ -5,7 +5,7 @@
 
       <loc>https://zeoflow.com/</loc>
       <lastmod>2020-01-04</lastmod>
-      <changefreq>monthly</changefreq>
+      <changefreq>daily</changefreq>
       <priority>1.0</priority>
 
    </url>
@@ -14,7 +14,7 @@
 
       <loc>https://zeoflow.com/index</loc>
       <lastmod>2020-01-04</lastmod>
-      <changefreq>monthly</changefreq>
+      <changefreq>daily</changefreq>
       <priority>1.0</priority>
 
    </url>
@@ -22,8 +22,17 @@
    <url>
 
       <loc>https://zeoflow.com/home</loc>
-      <lastmod>2020-01-05</lastmod>
-      <changefreq>monthly</changefreq>
+      <lastmod>2020-01-04</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>1.0</priority>
+
+   </url>
+
+   <url>
+
+      <loc>https://zeoflow.com/login</loc>
+      <lastmod>2020-01-04</lastmod>
+      <changefreq>daily</changefreq>
       <priority>1.0</priority>
 
    </url>
