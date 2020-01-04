@@ -85,49 +85,12 @@
           window.open("home", "_top");
         }
       }
-      /*
-      if (window.sessionStorage.getItem("splashShown")!=null) {
-        if (desktop) {
-          action = "https://zeoflow.github.io/d";
-          window.open(action, "_top");
-        } else {
-          if (localStorage.getItem("ZeoFlowUserLogged")!==null) {
-            document.getElementById('splash').hidden = true;
-            document.getElementById('home').hidden = false;
-          document.getElementById('txtWelcome').innerText = "Welcome, " + userData.name + "!";
-        } else {
-            action = "login";
-            window.open(action, "_top");
-        }
-        }
-    } else {
-      window.sessionStorage.setItem("splashShown", true);
-      setTimeout(
-          () => {
-              if (localStorage.getItem("ZeoFlowUserLogged")!==null) {
-                document.getElementById('splash').hidden = true;
-                document.getElementById('home').hidden = false;
-              document.getElementById('txtWelcome').innerText = "Welcome, " + userData.name + "!";
-                window.open(action, "_top");
-              }
-          },
-          1 * 1000
-        );
-
-    }*/
     };
   </script>
 
   <div id="particles-js"></div>
   <div class="home_holder">
-      <div class="logoHolder">
-          <img class="logoImg" src="assets/img/ic_zeoflow_logo_192.png" alt="ZeoFlow Logo"/>
-      </div>
-      <div class="contentHolder">
-        <div class="contentText">
-            ZeoFlow Splash Screen
-        </div>
-      </div>
+    <img class="logoHolder logoImg" src="assets/img/ic_zeoflow_logo_192.png" alt="ZeoFlow Logo"/>
   </div>
 
   <script src="js/particles.min.js"></script>
