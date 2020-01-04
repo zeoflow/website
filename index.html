@@ -79,6 +79,12 @@
           },
           1 * 1000
         );
+      } else {
+        if (localStorage.getItem("ZeoFlowUserLogged")!==null) {
+          window.open("login", "_top");
+        } else {
+          window.open("home", "_top");
+        }
       }
       /*
       if (window.sessionStorage.getItem("splashShown")!=null) {
