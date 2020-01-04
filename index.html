@@ -64,11 +64,11 @@
   <script>
       if(window.sessionStorage.getItem("splashShown") !== true) {
         window.sessionStorage.setItem("splashShown", true);
-              if (localStorage.getItem("ZeoFlowUserLogged")!==true) {
-                window.open("login", "_top");
-              } else {
-                window.open("home", "_top");
-              }
+        if (localStorage.getItem("ZeoFlowUserLogged")!==true) {
+          window.open("login", "_top");
+        } else {
+          window.open("home", "_top");
+        }
       } else {
         if (localStorage.getItem("ZeoFlowUserLogged")!==true) {
           window.open("login", "_top");
