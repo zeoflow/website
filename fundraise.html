@@ -60,22 +60,44 @@
   </script>
 
   <script>
-    history.pushState("null", "ZeoFlow - Log In / Sign Up", "/");
-  </script>
-
-  <script>
     if (localStorage.getItem("ZeoFlowUserLogged")===true) {
       window.open("home", "_top");
     }
   </script>
 
+  <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="styles/fundraise.css">
+  <!--===============================================================================================-->
+
 </head>
-<body style="background-color: #e61fd7; margin: 0;">
+<body style="margin: 0;">
 
   <div id="particles-js" style="position: absolute; top: 0; left: 0; bottom: 0; right: 0; width: 100%; height: 100%;"></div>
+	
+  <div class="container-login100">
+    <div class="login100-pic js-tilt" data-tilt>
+      <img src="assets/img/ic_zeoflow_logo.png" alt="IMG">
+    </div>
+  </div>
 
+  <!--===============================================================================================-->
   <script src="js/particles.min.js"></script>
   <script src="js/particle.js"></script>
+  <!--===============================================================================================-->	
+    <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+  <!--===============================================================================================-->
+    <script src="vendor/bootstrap/js/popper.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+  <!--===============================================================================================-->
+    <script src="vendor/select2/select2.min.js"></script>
+  <!--===============================================================================================-->
+    <script src="vendor/tilt/tilt.jquery.min.js"></script>
+    <script >
+      $('.js-tilt').tilt({
+        scale: 1.4
+      })
+    </script>
+  <!--===============================================================================================-->
 
 </body>
 </html>
