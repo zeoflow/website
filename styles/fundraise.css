@@ -43,10 +43,10 @@
   justify-content: center;
   align-items: center;
   background: #9053c7;
-  background: -webkit-linear-gradient(-135deg, #c850c0, #4158d0);
-  background: -o-linear-gradient(-135deg, #c850c0, #4158d0);
-  background: -moz-linear-gradient(-135deg, #c850c0, #4158d0);
-  background: linear-gradient(-135deg, #c850c0, #4158d0);
+  background: -webkit-linear-gradient(-135deg, #9a1ee9, #9a1ee9);
+  background: -o-linear-gradient(-135deg, #9a1ee9, #9a1ee9);
+  background: -moz-linear-gradient(-135deg, #9a1ee9, #9a1ee9);
+  background: linear-gradient(-135deg, #9a1ee9, #9a1ee9);
 }
 
 .wrap-login100 {
@@ -68,13 +68,13 @@
 /*------------------------------------------------------------------
 [  ]*/
 .login100-pic {
-  width: 200px;
+  width: 300px;
   z-index: 1;
 }
 
 @media (max-width: 800px) {
   .login100-pic {
-    width: 150px;
+    width: 230px;
   }
 }
 
