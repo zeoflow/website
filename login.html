@@ -66,6 +66,9 @@
     history.pushState("null", "ZeoFlow - Log In / Sign Up", "/");
   </script>
 
+  <!--
+    assuring that all the time the user is logged in
+  -->
   <script>
     if (localStorage.getItem("ZeoFlowUserLogged")===true) {
       window.open("home", "_top");
