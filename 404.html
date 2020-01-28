@@ -68,7 +68,16 @@
     //check if it is a relevant username
     //forward to user profile
     var url = new URL(window.location.href);
-    console.log("log", url.username, url.pathname);
+    var username = url.pathname;
+    if(username.lastIndexOf("/") != 0)
+    {
+      console.log("not valid username");
+    }
+    else 
+    {
+      console.log("valid username");
+    }
+    //console.log("log", url.pathname);
     //window.URL.name.
     history.pushState(null, "Error 404 (Not Found)!!!", "/404");
   </script>
