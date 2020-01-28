@@ -67,9 +67,8 @@
     //get the page url
     //check if it is a relevant username
     //forward to user profile
-    var url_string = window.location.href;
-    var url = new URL(url_string);
-    console.log("log", url_string, url);
+    var url = new URL(window.location.href);
+    console.log("log", url.username, url.pathname);
     //window.URL.name.
     history.pushState(null, "Error 404 (Not Found)!!!", "/404");
   </script>
