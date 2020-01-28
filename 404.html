@@ -71,15 +71,20 @@
     var username = url.pathname;
     if(username.lastIndexOf("/") != 0)
     {
-      history.pushState(null, "Error 404 (Not Found)!!!", "/404");
-      console.log("not valid username");
+      history.pushState(null, null, "/404");
     }
     else 
     {
-      //if(username.replace("/", ""))
-      history.pushState(null, null, username);
-      console.log("valid username", username.replace("/", ""));
+      if(username.replace("/", "") != 404)
+      {
+        history.pushState(null, null, username);
+      }
+      else
+      {
+        history.pushState(null, null, "/404");
+      }
     }
+
     //console.log("log", url.pathname);
     //window.URL.name.
   </script>
