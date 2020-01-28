@@ -67,6 +67,7 @@
     var p = url.searchParams.get("p");
     console.log(p);
     history.pushState(null, null, "/" + p);
+    document.title = p + "'s Profile"
   </script>
 
 </head>
