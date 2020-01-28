@@ -76,7 +76,7 @@
     else 
     {
       username = username.replace("/", "");
-      if(username != 404)
+      if(username != "404" && username != "profile" && username != "support")
       {
         window.open("profile?p=" + username, "_top");
         //history.pushState(null, null, username);
