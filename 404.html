@@ -76,8 +76,9 @@
     }
     else 
     {
+      //if(username.replace("/", ""))
       history.pushState(null, null, username);
-      console.log("valid username");
+      console.log("valid username", username.replace("/", ""));
     }
     //console.log("log", url.pathname);
     //window.URL.name.
