@@ -71,15 +71,16 @@
     var username = url.pathname;
     if(username.lastIndexOf("/") != 0)
     {
+      history.pushState(null, "Error 404 (Not Found)!!!", "/404");
       console.log("not valid username");
     }
     else 
     {
+      history.pushState(null, null, "/teo");
       console.log("valid username");
     }
     //console.log("log", url.pathname);
     //window.URL.name.
-    history.pushState(null, "Error 404 (Not Found)!!!", "/404");
   </script>
 
   <script>
