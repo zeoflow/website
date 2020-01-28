@@ -67,6 +67,7 @@
     var url = new URL(url_string);
     var p = url.searchParams.get("p");
     console.log(p);
+    history.pushState(null, null, "/" + p);
   </script>
 
 </head>
