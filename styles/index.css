@@ -13,6 +13,15 @@ body {
   transform: translate(-20vw, -10vh);
 }
 
+.developement {
+  position: absolute;
+  left: 50%;
+  top: 100px;
+  margin-left: -25%;
+  color: aliceblue;
+  font-size: 40px;
+}
+
 #particles-js {
   position: absolute;
   top: 0;
