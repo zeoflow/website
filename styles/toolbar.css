@@ -1,0 +1,15 @@
+
+
+/* Toolbar Elements Style */
+.toolbarHolder {
+    background-color: #ffffff;
+    width: 100%;
+    height: 54px;
+    top: 0;
+    position: fixed;
+    z-index: 11;
+}
+.toolbarShadow {
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.671),
+        0 4px 6px 0 rgba(0, 0, 0, 0.19);      
+}
