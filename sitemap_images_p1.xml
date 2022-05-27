@@ -1,37 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-  <url>
-    <loc>http://zeoflow.com/team/teodor_g.html</loc>
-    <image:image>
-      <image:loc>http://zeoflow.com/team/img/personal.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://zeoflow.com/team/img/personal-2.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://zeoflow.com/assets/img/asteroid_destroyer_logo.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://zeoflow.com/assets/img/chess_icon.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://zeoflow.com/assets/img/contar_io_logo.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://zeoflow.com/assets/img/dangerous_racers_icon.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://zeoflow.com/assets/img/labyrinth_icon.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://zeoflow.com/assets/img/magical_drop_2_icon.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://zeoflow.com/assets/img/ic_zeoflow_logo_sqr.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://zeoflow.com/assets/img/tic_tac_toe_icon.png</image:loc>
-    </image:image>
-  </url> 
 </urlset> 
